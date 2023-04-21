@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.max-width-wrapper {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  min-height: 100%; 
+  background-color: #151515;
+ } 
+figure {
+    margin: 0;
+}
+/**************************************************/
+/* Header Section - Mobile First */
+/**************************************************/
+header {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    position: relative;
+}
+
+.nav-container {
+    width: 154px;
+    position: absolute;
+    top: 0;   
+}
+
+.nav-name {
+    text-align: center;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links-container li a {
+    color: #ffffff;
+}
+
+.nav-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -.33px;
+    color: rgba(255,255,255,1);
+}
+
+/**************************************************/
+/* Selfie, Oval, and circle decoration */
+/**************************************************/
+
+/* Primary image */
+.image-selfie {
+    position: relative;
+    width: 174px;
+    height: 383px;
+}
+
+.image-selfie img {
+    width: 100%;
+    background: linear-gradient(rgba(36, 36, 36, 0.0001) 100%,#242424 100%);
+    opacity: .08px;
+}
+
+/* Image to show behind primary image */
+.image-oval {
+    position: absolute;
+    width: 530px;
+    height: 129px;
+    top: 124px;
+    right: 187px;
+}
+
+.image-circle {
+    position: absolute;
+    top: 254px;
+    left: 311px;
+}
