@@ -29,7 +29,7 @@ figure {
     margin: 0;
 }
 /**************************************************/
-/* Header Section - Mobile First */
+/* Nav Section - Mobile First */
 /**************************************************/
 header {
     display: flex;
@@ -83,7 +83,6 @@ header {
 .image-selfie img {
     width: 100%;
     background: linear-gradient(rgba(36, 36, 36, 0.0001) 100%,#242424 100%);
-    opacity: .08px;
 }
 
 /* Image to show behind primary image */
@@ -100,3 +99,181 @@ header {
     top: 254px;
     left: 311px;
 }
+
+/**************************************************/
+/* Header message */
+/**************************************************/
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.name-span {
+    border-bottom: 4px solid #4EE1A0;
+}
+.header-message {
+    color: rgba(217, 217, 217, 1);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+.contact-me-link {
+    color: #ffffff;
+    border-bottom: 2px solid #4EE1A0;
+    line-height: 38px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2.29px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 10px;
+   
+}
+/**************************************************/
+/* Skills Section */
+/**************************************************/
+.skills-wrapper {
+    position: relative;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin-top: 80px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.skills-wrapper h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 1px;
+}
+.skills-wrapper h2:first-child {
+    margin-top: 40px;
+}
+
+.skills-wrapper p {
+    color: rgba(217, 217, 217, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 0;
+}
+.skills-wrapper p:last-child {
+    /* position: relative; */
+    margin-bottom: 40px;
+}
+.skills-oval {
+    position: absolute;
+    width: 530px;
+    height: 129px;
+    bottom: -62px;
+    left: 189px;
+}
+/**************************************************/
+/* Project Section */
+/**************************************************/
+.projects-wrapper {
+    margin-top: 42px;
+}
+.project-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.project-title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+    margin-left: 16px;
+}
+#project-contact {
+    width: 120px;
+    text-align: center;
+    margin-right: 16px
+}
+
+.project-container figure {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 343px;
+    height: 253px;
+    margin-top: 40px;
+}
+.project-container img {
+    width: 100%;
+}
+.project-container h3 {
+    color:rgba(255, 255, 255, 1);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-bottom: 7px; 
+    text-transform: uppercase;
+}
+.project-tools-container ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 16px;
+   
+}
+.project-tools-container li {
+    line-height: 28px;
+    color: rgba(217, 217, 217, 1);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.tool-1 {
+    padding-right: 18px;
+}
+.tool-2 {
+    padding-right: 20px;
+}
+
+.project-links{
+    margin-top: 20px;
+}
+.project-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 2.29px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4EE1A0;
+    text-transform: uppercase;
+}
+
+.project-links a:first-of-type {
+    margin-left: 16px;
+    margin-right: 30px;  
+}
+/**************************************************/
+/* Contact Section */
+/**************************************************/
