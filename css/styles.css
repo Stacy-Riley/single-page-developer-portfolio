@@ -210,6 +210,9 @@ h1 {
     text-align: center;
     margin-right: 16px
 }
+.project-container {
+    margin-bottom: 90px;
+}
 
 .project-container figure {
     margin-left: 16px;
@@ -277,3 +280,93 @@ h1 {
 /**************************************************/
 /* Contact Section */
 /**************************************************/
+#contact-section {
+    background-color: #242424;
+    
+}
+.contact-message-container {
+   
+}
+.contact-message-container h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0;
+}
+.contact-message-container p {
+    color: rgba(217, 217, 217, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+/* Form */
+label {
+    display: none;
+}
+
+form input {
+    background-color: #242424;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    height: 43px;
+    width: 343px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+form textarea {
+    background-color: #242424;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    height: 107px;
+    width: 343px;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
+.send-message-button {
+    background-color: #242424;
+    border: none;
+    color: #ffffff;
+    border-bottom: 2px solid #4EE1A0;
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2.29px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-right: 16px;
+    margin-top: 21px;
+    
+}
+.send-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Footer Section */
+.nav-footer-container {
+    background-color: #242424;
+}
+
+.error-message {
+    color: rgba(255, 111, 91, 1);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.17px;
+    line-height: 16px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 11px;
+    margin-right: 16px;
+    text-align: right;
+}
