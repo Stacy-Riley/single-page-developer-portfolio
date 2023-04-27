@@ -29,9 +29,6 @@ figure {
     margin: 0;
 }
 
-main {
-    border-bottom: 1px solid #ffffff;
-}
 /**************************************************/
 /* Nav Section - Mobile First */
 /**************************************************/
@@ -76,7 +73,6 @@ header {
 /**************************************************/
 /* Selfie, Oval, and circle decoration */
 /**************************************************/
-
 /* Primary image */
 .image-selfie {
     position: relative;
@@ -90,7 +86,7 @@ header {
 }
 
 /* Image to show behind primary image */
-.image-oval {
+.header-oval {
     position: absolute;
     width: 530px;
     height: 129px;
@@ -98,12 +94,11 @@ header {
     right: 187px;
 }
 
-.image-circle {
+.header-circle {
     position: absolute;
     top: 254px;
     left: 311px;
 }
-
 /**************************************************/
 /* Header message */
 /**************************************************/
@@ -118,9 +113,11 @@ h1 {
     margin-top: 40px;
     margin-bottom: 24px;
 }
+
 .name-span {
     border-bottom: 4px solid #4EE1A0;
 }
+
 .header-message {
     color: rgba(217, 217, 217, 1);
     font-size: 16px;
@@ -132,6 +129,7 @@ h1 {
     margin-right: 16px;
     margin-bottom: 24px;
 }
+
 .contact-me-link {
     color: #ffffff;
     border-bottom: 2px solid #4EE1A0;
@@ -141,8 +139,7 @@ h1 {
     letter-spacing: 2.29px;
     text-transform: uppercase;
     text-decoration: none;
-    padding-bottom: 10px;
-   
+    padding-bottom: 10px;  
 }
 /**************************************************/
 /* Skills Section */
@@ -155,6 +152,7 @@ h1 {
     margin-left: 16px;
     margin-right: 16px;
 }
+
 .skills-wrapper h2 {
     color: #ffffff;
     text-transform: uppercase;
@@ -166,6 +164,7 @@ h1 {
     margin-top: 24px;
     margin-bottom: 1px;
 }
+
 .skills-wrapper h2:first-child {
     margin-top: 40px;
 }
@@ -178,10 +177,12 @@ h1 {
     text-align: center;
     margin-top: 0;
 }
+
 .skills-wrapper p:last-child {
     /* position: relative; */
     margin-bottom: 40px;
 }
+
 .skills-oval {
     position: absolute;
     width: 530px;
@@ -195,12 +196,14 @@ h1 {
 .projects-wrapper {
     margin-top: 42px;
 }
+
 .project-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
 }
+
 .project-title {
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
@@ -209,11 +212,13 @@ h1 {
     letter-spacing: -1.14px;
     margin-left: 16px;
 }
+
 #project-contact {
     width: 120px;
     text-align: center;
     margin-right: 16px
 }
+
 .project-container {
     margin-bottom: 90px;
 }
@@ -225,9 +230,11 @@ h1 {
     height: 253px;
     margin-top: 40px;
 }
+
 .project-container img {
     width: 100%;
 }
+
 .project-container h3 {
     color:rgba(255, 255, 255, 1);
     font-size: 24px;
@@ -237,6 +244,7 @@ h1 {
     margin-bottom: 7px; 
     text-transform: uppercase;
 }
+
 .project-tools-container ul {
     display: flex;
     justify-content: flex-start;
@@ -245,9 +253,9 @@ h1 {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-left: 16px;
-   
+    margin-left: 16px; 
 }
+
 .project-tools-container li {
     line-height: 28px;
     color: rgba(217, 217, 217, 1);
@@ -255,9 +263,11 @@ h1 {
     font-weight: 500;
     text-transform: uppercase;
 }
+
 .tool-1 {
     padding-right: 18px;
 }
+
 .tool-2 {
     padding-right: 20px;
 }
@@ -265,6 +275,7 @@ h1 {
 .project-links{
     margin-top: 20px;
 }
+
 .project-links a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
@@ -285,12 +296,29 @@ h1 {
 /* Contact Section */
 /**************************************************/
 #contact-section {
-    background-color: #242424;
-    
+    background-color: #242424;   
+    position: relative;
 }
+
+.contact-oval {
+    position: absolute;
+    width: 530px;
+    height: 129px;
+    bottom: 107px;
+    right: 188px;
+}
+
 .contact-message-container {
-   
+    margin-left: 16px;
+    margin-right: 16px;
 }
+
+.contact-form-container {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px solid #ffffff;
+}
+
 .contact-message-container h2 {
     color: rgba(255, 255, 255, 1);
     font-size: 40px;
@@ -300,6 +328,7 @@ h1 {
     padding-top: 60px;
     margin: 0;
 }
+
 .contact-message-container p {
     color: rgba(217, 217, 217, 1);
     font-weight: 500;
@@ -307,9 +336,8 @@ h1 {
     line-height: 26px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 16px;
-    margin-right: 16px;
 }
+
 /* Form */
 label {
     display: none;
@@ -322,8 +350,14 @@ form input {
     color: #FFFFFF;
     height: 43px;
     width: 343px;
-    margin-left: 16px;
-    margin-right: 16px;
+}
+
+form input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.22px;
+    padding-left: 24px;
 }
 
 form textarea {
@@ -333,10 +367,17 @@ form textarea {
     color: #FFFFFF;
     height: 107px;
     width: 343px;
-    margin-left: 16px;
-    margin-right: 16px;
-    
 }
+
+textarea::placeholder {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.22px;
+    padding-left: 24px;
+}
+
 .send-message-button {
     background-color: #242424;
     border: none;
@@ -348,8 +389,6 @@ form textarea {
     letter-spacing: 2.29px;
     text-transform: uppercase;
     padding-bottom: 10px;
-    margin-right: 16px;
-    margin-top: 21px;  
 }
 
 .send-button-container {
@@ -358,33 +397,29 @@ form textarea {
     padding-bottom: 87px;
 }
 
-/* Footer Section */
-.nav-footer-container {
-    background-color: #242424;
-}
-
 .error-message {
     color: rgba(255, 111, 91, 1);
     font-weight: 500;
     font-size: 12px;
+    height: 16px;
     letter-spacing: -0.17px;
-    line-height: 16px;
     margin: 0;
     margin-top: 5px;
     margin-bottom: 11px;
-    margin-right: 16px;
     text-align: right;
 }
 
 /**************************************************/
 /* Footer Section */
 /**************************************************/
+
 footer p {
     margin-top: 0;
     padding-top: 39px;
 }
 
 .nav-footer-container {
+    background-color: #242424;
     display: flex;
     justify-content:center;
     align-items: center;
