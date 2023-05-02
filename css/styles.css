@@ -25,10 +25,10 @@ body {
   min-height: 100%; 
   background-color: #151515;
  } 
+
 figure {
     margin: 0;
 }
-
 /**************************************************/
 /* Nav Section - Mobile First */
 /**************************************************/
@@ -46,6 +46,11 @@ header {
 
 .nav-name {
     text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -.33px;
+    color: rgba(255,255,255,1);
 }
 
 .nav-links-container {
@@ -58,18 +63,14 @@ header {
     width: 154px;
 }
 
+.nav-links-container li  {
+    width: 19.69px;
+    height: 19.2px;
+}
+
 .nav-links-container li a {
     color: #ffffff;
 }
-
-.nav-name {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -.33px;
-    color: rgba(255,255,255,1);
-}
-
 /**************************************************/
 /* Selfie, Oval, and circle decoration */
 /**************************************************/
@@ -459,12 +460,17 @@ footer p {
         width: 708.49px;
     }
 
+    .nav-name {
+        font-size: 32px;
+        letter-spacing: -.44px;
+    }
+
     .nav-links-container {
         width: 192.49px;
     }    
 
     .header-message-container {
-        /* To place on top of the image-selfie */
+        /* Relative to place on top of the image-selfie */
         position: relative;
         align-self: flex-start;
         height: 449px;
@@ -489,9 +495,7 @@ footer p {
 
     .name-span {
         line-height: 60px;
-        /* padding-bottom: -30px; */
         border-bottom: 6px solid #4EE1A0;
-        /* margin-bottom: -0.2em; */
     }
 
     .header-message {
@@ -535,8 +539,7 @@ footer p {
         width: 322px;
         height: 600px;
         top: 0;
-       right: 0;
-       
+        right: 0;
     }
 
     /* This changes the image to tablet size */
@@ -556,10 +559,10 @@ footer p {
 /* Skills Section - Tablet */
 /**************************************************/
     .skills-wrapper {
-    margin-top: 70px;
-    margin-left: 32px;
-    margin-right: 32px;
-    border-bottom: none;
+        margin-top: 70px;
+        margin-left: 32px;
+        margin-right: 32px;
+        border-bottom: none;
     }
 
     .article-container {
@@ -651,8 +654,7 @@ footer p {
         margin-right: 29.51px; */
     }    
     .contact-oval {
-        top: 547px;
-        bottom: unset;
+        bottom: 27px;
         right: 606px;
     }
 
@@ -670,13 +672,14 @@ footer p {
         margin-left: auto;
         margin-right: auto;
     }
-    /* start here  */
+   
     .contact-form-container {
         border-bottom: none;
         margin-left: auto;
         margin-right: auto;
         width: 445px;
     }
+
     form input {
         width: 445px;
     }
@@ -704,14 +707,26 @@ footer p {
         margin-left: 30px;
         margin-right: 29.51px;
     }
+
     .nav-footer-container p {
+        margin: 0;
         padding-top: 0;
+        padding-top: 30px;
+        padding-bottom: 40px;
     }
+
     .footer-nav-links nav {
-        margin-bottom: 0;
-       
+        /* margin-bottom: 0; */
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        width: 192.49px;
+        
     }
-    /* Start at spacing in footer  */
+    .footer-nav-links li  {
+        width: 24.61px;
+        height: 24px;
+    }
 }
 
 
