@@ -167,9 +167,9 @@ h1 {
     margin-bottom: 1px;
 }
 
-.skills-wrapper h2:first-child {
+/* .skills-wrapper h2:first-child {
     margin-top: 40px;
-}
+} */
 
 .skills-wrapper p {
     color: rgba(217, 217, 217, 1);
@@ -559,7 +559,7 @@ footer p {
 /* Skills Section - Tablet */
 /**************************************************/
     .skills-wrapper {
-        margin-top: 70px;
+        margin-top: 104px;
         margin-left: 32px;
         margin-right: 32px;
         border-bottom: none;
@@ -570,11 +570,7 @@ footer p {
         grid-template-columns: 1fr 1fr;
     }
 
-    .skills-wrapper h2:first-child {
-        margin-top: 52px;
-    }
-
-    .skills-wrapper h2 {
+    .article-container h2 {
         font-size: 48px;
         font-weight: 700;
         letter-spacing: -1.5px;
@@ -647,12 +643,7 @@ footer p {
     }
 /**************************************************/
 /* Contact Section - Tablet */
-/**************************************************/
-    #contact-section {  
-        /* border-top: 1px solid #ffffff;
-        margin-left: 30px;
-        margin-right: 29.51px; */
-    }    
+/**************************************************/   
     .contact-oval {
         bottom: 27px;
         right: 606px;
@@ -698,6 +689,13 @@ footer p {
  /**************************************************/
 /* Footer Section - Tablet */
 /**************************************************/   
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }    
+
     .nav-footer-container {
         display: flex;
         justify-content: space-between;
@@ -706,6 +704,7 @@ footer p {
         border-top: 1px solid #ffffff;
         margin-left: 30px;
         margin-right: 29.51px;
+        width: 708.49px;
     }
 
     .nav-footer-container p {
@@ -716,34 +715,215 @@ footer p {
     }
 
     .footer-nav-links nav {
-        /* margin-bottom: 0; */
         margin: 0;
         padding-top: 30px;
         padding-bottom: 40px;
-        width: 192.49px;
-        
+        width: 192.49px;  
     }
+
     .footer-nav-links li  {
         width: 24.61px;
         height: 24px;
     }
 }
-
-
-
-
-
-
-
-
 /**************************************************/
 /**************************************************/
 /* Desktop Syles */
 /**************************************************/
 /**************************************************/
-@media(min-width: 1200px) {
+@media(min-width: 1440px) {
 /**************************************************/
 /* Header Section - Desktop */
 /**************************************************/  
+    /* Start Here */
+    header {
+        height: 720px;
+    }
+
+    .nav-container {
+        min-width: 1081px;
+    }
     
+    .nav-name {
+        margin-top: 39px;
+    }
+ 
+    .header-message-container {
+        height: 303px;
+        width: 706px;
+        margin-top: -522px;
+        margin-left: 165px;
+    }
+
+    .header-message-container h1 {
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -2.5px;
+        width: 709px;
+    }
+
+    .move-words-down {
+        display: inline;
+    }
+
+    .name-span {
+        line-height: 88px;
+    }
+
+    .header-message {
+        margin-top: 43px;
+        margin-bottom: 66px;
+        width: 445px;
+    }
+
+    /* container for positioned images */
+    .header-image-container {
+        position: relative;
+        width: 1440px; 
+        height: 100%; 
+    }
+
+    .header-oval {
+        position: absolute;
+        width: 530px;
+        height: 129px;
+        top: 133px;
+        right: 1010px;
+    }
+
+    .header-circle {
+        position: absolute;
+        top: 521px;
+        left: unset;
+        right: 545px;
+        margin: 0;
+        z-index: 1;
+    }
+
+    /* Primary image */
+    /*figure tag */
+    .image-selfie {
+        position: absolute;
+        width: 445px;
+        height: 720px;
+        top: 0;
+        right: 165px;
+    }
+
+    /* This changes the image to tablet size */
+    #selfie {
+        content: url('../images/image-profile-desktop.webp');
+    }
+    
+    .contact-link-header {
+        align-self: flex-start;
+        margin-left: 165px;
+        margin-top: 66px;
+    }
+    
+    .contact-me-link {
+        line-height: 26px;
+    }
+/**************************************************/
+/* Skills Section - Desktop */
+/**************************************************/ 
+    .skills-wrapper {
+        margin-left: 165px;
+        margin-right: 165px;
+    }
+
+    .article-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 14px;
+    }
+
+    .skills-wrapper h2 {
+        margin-top: 58px;
+    }
+
+    .skills-oval {
+        top: unset;
+        bottom: unset;
+        left: unset;
+        right: unset;
+        top: 253px;
+        right: -420px;
+    }
+/**************************************************/
+/* Project Section - Desktop */
+/**************************************************/ 
+    .projects-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        margin-left: 165px;
+        margin-right: 165px;
+        margin-top: 140px;
+
+    }
+
+    .project-heading {
+       margin: 0;
+       padding-bottom: 11px;
+    }
+
+    .project-title {
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -2.5px;
+    }
+
+    #project-contact {
+        align-self: center;
+        text-align: center;
+    }
+
+    .project-container {
+        gap: 30px;
+        grid-template-columns: 1fr 1fr; 
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 139px;
+    }
+
+    .project-container figure {
+        margin-top: 69px;
+        width: 540px;
+        height: 400px
+    }
+/**************************************************/
+/* Contact Section - Desktop */
+/**************************************************/    
+    .contact-wrapper {
+        display: flex;
+       justify-content: space-between;
+       flex-flow: row wrap;
+        margin-left: 165px;
+       margin-right: 165px;
+    }
+
+    .contact-message-container {
+        margin-top: 84px;
+    }
+
+    .contact-message-container h2 {
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -2.5px;
+        padding: 0;
+    }
+
+    .contact-form-container {
+        margin: 0;
+        margin-top: 84px;
+    }
+
+    .send-button-container {
+        padding-bottom: 104px;
+    }
+    /* start with oval in contact section */
+    .contact-oval {
+        bottom: 27px;
+        right: 606px;
+    }
 }
