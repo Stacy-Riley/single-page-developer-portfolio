@@ -462,7 +462,7 @@ footer p {
     width: 154px;   
 }
 
-.footer-nav-links nav li a:hover svg {
+.footer-nav-links div li a:hover svg {
     fill: #4EE1A0; 
 }
 /**************************************************/
@@ -910,7 +910,7 @@ footer p {
         justify-content: space-between;
         margin-left: 165px;
         margin-right: 165px;
-        margin-bottom: 112px;
+        margin-bottom: 139px;
     }
 
     .project {
