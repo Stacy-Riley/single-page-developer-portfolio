@@ -216,6 +216,7 @@ h1 {
 
 #project-contact {
     padding: 0;
+    padding-bottom: 10px;
     margin: 0;
     align-self: flex-end;
     line-height: 26px;
@@ -329,7 +330,7 @@ h1 {
 .error-icon {
     position: absolute;
     right: 2px;
-    top: 80px;
+    top: 72px;
 }
 
 .hide-error-icon {
@@ -367,6 +368,11 @@ form input {
     color: #FFFFFF;
     height: 43px;
     width: 343px;
+}
+
+#form-email,
+#form-message {
+    margin-top: 11px;
 }
 
 form input::placeholder {
@@ -407,6 +413,7 @@ textarea::placeholder {
     text-transform: uppercase;
     padding-bottom: 10px;
     cursor: pointer;
+    margin-top: 11px;
 }
 .send-message-button:hover {
     color:#4EE1A0;
@@ -424,8 +431,8 @@ textarea::placeholder {
     height: 16px;
     letter-spacing: -0.17px;
     margin: 0;
-    margin-top: 5px;
-    margin-bottom: 11px;
+    padding-top: 5px;
+    /* margin-bottom: 11px; */
     text-align: right;
 }
 
@@ -776,7 +783,7 @@ footer p {
     }
 
     .nav-container {
-        min-width: 1081px;
+        min-width: 1082px;
     }
     
     .nav-name {
