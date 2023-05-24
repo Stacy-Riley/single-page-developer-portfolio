@@ -21,13 +21,14 @@ body {
     margin: 0;   
 }
 
-.max-width-wrapper {
-  min-height: 100%; 
-  max-width: 1440px;
+.max-width-wrapper { 
   /* Overflow: hidden hides the excess portions of the decorative elements so there isn't a 
   horizontal scrollbar, plus make sure margin is 0 so displays to the edge */
   overflow: hidden;
-  margin: 0;
+  min-height: 100%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
   
  } 
 
